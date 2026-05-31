@@ -33,7 +33,7 @@
             "horario": "Segunda a Sábado: 11h - 22h | Domingo e Feriados: 11h - 17h",
             "nota": 4.5,
             "descricao": "Um dos mais tradicionais restaurantes de culinária mineira de BH, batizado em homenagem a Maria Lúcia Clementino Nunes. Referência gastronômica e turística da capital, preserva o gosto e a cultura alimentar dos tempos coloniais de Minas Gerais.",
-            "imagem": "",
+            "imagem": "https://imgmd.net/images/v1/guia/1686677/restaurante-dona-lucinha.jpg",
             "site": "https://www.donalucinha.com.br"
         },
         {
@@ -45,7 +45,7 @@
             "horario": "Segunda a Terça: 19h - 23h | Quarta a Sexta: 19h - 00h | Sábado: 12h30 - 16h e 19h - 00h | Domingo: fechado",
             "nota": 4.6,
             "descricao": "Fundado em 1988, é um dos restaurantes franceses mais tradicionais de BH. Famoso pelos soufflés e por uma das maiores cartas de vinhos do Brasil, com mais de 800 rótulos. Ambiente intimista e aconchegante.",
-            "imagem": "",
+            "imagem": "https://boalembranca-production-secure.nyc3.cdn.digitaloceanspaces.com/826270f4-5a07-443f-9130-884be92690a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=DO00V3H8NYFP64LYVFNQ%2F20260531%2Fnyc3%2Fs3%2Faws4_request&X-Amz-Date=20260531T025027Z&X-Amz-Expires=86400&X-Amz-Signature=008c097f50944df032c4404d8624b18e31e94faaf3c4f69c3bfd67e80616476f&X-Amz-SignedHeaders=host&response-content-disposition=inline&response-content-type=image%2Fjpeg&x-amz-checksum-mode=ENABLED&x-id=GetObject",
             "site": "https://www.tastevinbh.com.br"
         },
         {
@@ -57,7 +57,7 @@
             "horario": "Terça a Quinta: 18h - 00h | Sexta e Sábado: 12h - 00h30 | Domingo: 12h - 17h30 | Segunda: fechado",
             "nota": 4.6,
             "descricao": "Restaurante italiano com tradição em BH e a maior adega de restaurante da América Latina. Combina receitas tradicionais italianas com ingredientes e inspirações típicos de Minas Gerais. Possui unidades em Lourdes, Savassi e Belvedere.",
-            "imagem": "",
+            "imagem": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/43/4b/46/interno.jpg?w=900&h=500&s=1",
             "site": "https://gennaro.com.br"
         },
         {
@@ -69,7 +69,7 @@
             "horario": "Quarta a Sexta: 12h - 15h e 19h - 23h | Sábado e Domingo: 12h - 16h | Terça: fechado | Segunda: fechado",
             "nota": 4.8,
             "descricao": "Comandado pelo chef Caio Soter, o Pacato figura entre os 100 Melhores Restaurantes do Brasil 2025. Oferece menu degustação semanal 'Singular' com ingredientes de mercado selecionados pelo chef, aliando técnica refinada e alto padrão de serviço.",
-            "imagem": "",
+            "imagem": "https://soubh.uai.com.br/wp-content/uploads/2026/03/Pacato-interior.jpg",
             "site": "https://pacatobh.com.br"
         },
         {
@@ -81,7 +81,7 @@
             "horario": "Terça a Sábado: 12h - 15h30 e 19h - 23h | Domingo: 12h - 16h30 | Segunda: fechado",
             "nota": 4.7,
             "descricao": "Revelação da cena gastronômica de BH inaugurado em 2024, comandado pela chef Ana Gabriela Costa. Celebra a culinária mineira com ingredientes 100% locais e apresentações contemporâneas, reconhecido entre os destaques dos 100 Melhores Restaurantes do Brasil 2025.",
-            "imagem": "",
+            "imagem": "https://trintaeum.com.br/wp-content/uploads/2025/07/P2.webp",
             "site": "https://trintaeum.com.br"
         },
         {
@@ -93,7 +93,7 @@
             "horario": "Terça a Sábado: 12h - 15h e 19h - 01h30 | Domingo: 12h - 17h | Segunda: fechado",
             "nota": 4.6,
             "descricao": "Fundado em 1983 pelo chef Remo Peluso, é uma das cantinas italianas mais tradicionais do Brasil, com mais de 40 anos de história em BH. Massas artesanais fabricadas no próprio restaurante seguindo métodos tradicionais da região do Cilento, na Itália.",
-            "imagem": "",
+            "imagem": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/83/37/db/provinzia-di-salerno.jpg?w=900&h=500&s=1",
             "site": "https://www.provincia.com.br"
         },
         {
@@ -105,7 +105,7 @@
             "horario": "Terça a Sexta: 11h30 - 15h e 18h - 00h | Sábado: 12h - 00h | Domingo: 12h - 18h | Segunda: fechado",
             "nota": 4.6,
             "descricao": "Eleito o 9º melhor bar do Brasil pelo ranking EXAME Casual 2025, o Bar Pirex reinterpreta o boteco mineiro com técnica e criatividade. Destaca-se por petiscos inventivos, opções vegetarianas e pratos da estufa preparados diariamente dentro da Galeria São Vicente.",
-            "imagem": "",
+            "imagem": "https://bhaz.com.br/wp-content/uploads/2024/03/Bar-Pirex.png",
             "site": "https://www.instagram.com/barpirex"
         },
         {
@@ -117,7 +117,7 @@
             "horario": "Terça a Sábado: 12h - 23h | Domingo: 12h - 17h | Segunda: fechado",
             "nota": 4.4,
             "descricao": "Bistrô comandado pela chef Bruna Martins com forte influência da culinária francesa e ingredientes de temporada. Figura entre os destaques do ranking EXAME Casual 2025 e no 50Best Discovery, com cardápio criativo e ambiente intimista.",
-            "imagem": "",
+            "imagem": "https://www.theworlds50best.com/discovery/filestore/jpg/BiroscaS2-interior.jpg",
             "site": null
         },
         {
@@ -129,7 +129,7 @@
             "horario": "Segunda a Domingo: 12h - 14h30 e 18h - 22h30",
             "nota": 4.3,
             "descricao": "Com mais de 20 anos de tradição em BH, o Tatame é referência em gastronomia japonesa na cidade. Oferece cardápio à la carte, self-service e rodízio com cerca de 20 pratos japoneses, reconhecido pela qualidade consistente e ambiente aconchegante no bairro Sion.",
-            "imagem": "",
+            "imagem": "images/tatame.html",
             "site": "https://www.tatamerestaurante.com.br"
         }
     ]

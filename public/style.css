@@ -140,6 +140,9 @@ section {
 .destaque-image {
     flex: 1;
     border-radius: 8px;
+    max-height: 320px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .destaque-text {
@@ -172,7 +175,12 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+    font-family: inherit;
+    font-size: inherit;
+    width: 100%;
 }
 
 .categoria-item:hover {
@@ -246,6 +254,292 @@ footer {
     border-top: 3px solid #a83f21;
 }
 
+/* Carrossel */
+.hero-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.carousel-slide {
+    display: none;
+    position: relative;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.65));
+    color: #fff;
+    padding: 1.5rem 1rem 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.1rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    z-index: 10;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background: rgba(0,0,0,0.75);
+}
+
+.carousel-prev { left: 1rem; }
+.carousel-next { right: 1rem; }
+
+.carousel-dots {
+    position: absolute;
+    bottom: 0.75rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+    z-index: 10;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.dot.active {
+    background: #fff;
+}
+
+/* Categoria ativo */
+.categoria-item.ativo {
+    border-color: #a83f21;
+    box-shadow: 0 0 0 3px rgba(168,63,33,0.2);
+    transform: translateY(-5px);
+}
+
+/* Resultados de categoria */
+.categoria-resultados {
+    max-width: 1200px;
+    margin: 0 auto 3rem auto;
+}
+
+.categoria-resultados h3 {
+    color: #a83f21;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.restaurantes-lista {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.restaurante-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.restaurante-card:hover {
+    transform: translateY(-4px);
+}
+
+.restaurante-card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.restaurante-card-img--placeholder {
+    background: #e8d9c8;
+}
+
+.restaurante-card-info {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.restaurante-card-info strong {
+    font-size: 1.05rem;
+    color: #2b2b2b;
+}
+
+.restaurante-card-info p {
+    font-size: 0.82rem;
+    color: #666;
+}
+
+.restaurante-horario {
+    font-size: 0.78rem !important;
+    color: #999 !important;
+}
+
+.nota {
+    color: #a83f21;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.nota::before {
+    content: "★ ";
+}
+
+/* Link nos cards de restaurante */
+a.restaurante-card {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Link nos itens de categoria */
+a.categoria-item {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Logo como link */
+.logo a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Voltar link */
+.voltar-link {
+    display: inline-block;
+    color: #a83f21;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    transition: opacity 0.2s;
+}
+
+.voltar-link:hover {
+    opacity: 0.7;
+}
+
+/* Página de categoria */
+.categoria-page {
+    padding: 2rem 0;
+}
+
+.categoria-page h1 {
+    color: #a83f21;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Página de detalhes do restaurante */
+.restaurante-detalhe {
+    padding: 2rem 0;
+}
+
+.restaurante-detalhe-content {
+    display: flex;
+    gap: 0;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    overflow: hidden;
+}
+
+.restaurante-detalhe-img {
+    width: 45%;
+    max-height: 480px;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: block;
+}
+
+.restaurante-detalhe-info {
+    flex: 1;
+    padding: 2rem;
+}
+
+.restaurante-detalhe-info h1 {
+    color: #a83f21;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.nota-grande {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.categoria-badge {
+    display: inline-block;
+    background: rgba(168,63,33,0.1);
+    color: #a83f21;
+    padding: 0.25rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+}
+
+.restaurante-descricao {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: #444;
+    margin-bottom: 1.75rem;
+}
+
+.detalhes-lista {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.detalhes-lista li {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.detalhes-lista li strong {
+    color: #2b2b2b;
+    margin-right: 0.25rem;
+}
+
+.detalhes-lista a {
+    color: #a83f21;
+    word-break: break-all;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
     .navbar {
@@ -301,5 +595,26 @@ footer {
 
     .top5-list {
         padding: 1rem;
+    }
+
+    .restaurantes-lista {
+        grid-template-columns: 1fr;
+    }
+
+    .restaurante-detalhe-content {
+        flex-direction: column;
+    }
+
+    .restaurante-detalhe-img {
+        width: 100%;
+        max-height: 260px;
+    }
+
+    .restaurante-detalhe-info h1 {
+        font-size: 1.6rem;
+    }
+
+    .categoria-page h1 {
+        font-size: 1.8rem;
     }
 }
